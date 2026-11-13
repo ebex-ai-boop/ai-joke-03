@@ -2,7 +2,7 @@
 import os
 from pathlib import Path
 
-JOKE = "I asked my agent to add error handling. It wrapped everything in try/except: pass. The app never crashes now. It also never works."
+JOKE = "The agent's commit: 'Refactor auth.' The diff: it moved the password check into a comment. The comment says 'TODO: add password check.'"
 
 def main():
     out = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")) / "entry.txt"
